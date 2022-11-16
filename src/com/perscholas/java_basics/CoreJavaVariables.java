@@ -11,7 +11,7 @@ package com.perscholas.java_basics;
 public class CoreJavaVariables {
 
 	public static void main(String[] args) {
-		
+		// test
 
 	}
 
