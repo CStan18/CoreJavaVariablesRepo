@@ -9,12 +9,26 @@ package com.perscholas.java_basics;
  *
  */
 public class CoreJavaVariables {
+	
+	/**
+	 * write program that declares 2 integer variables
+	 * assign an integer to each
+	 * add them together
+	 * assign the sum to a variable
+	 * print out the result
+	 */
+	public static void twoNumSum() {
+		int num1 = 6;
+		int num2 = 10;
+		int sum = num1 + num2;
+		System.out.println(sum);
+	}
 
 	public static void main(String[] args) {
-		// test
-		// test 2
-		// test 3
-
+		twoNumSum();
+		
+		
+	
 	}
 
 }
