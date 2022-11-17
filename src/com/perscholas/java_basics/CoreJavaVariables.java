@@ -150,9 +150,15 @@ public class CoreJavaVariables {
 		double totalSale;
 		final double SALES_TAX = 2.13;
 		
+		/**
+		 * subtotal calculation
+		 */
 		subtotal = (numCoffee * coffeePrice) + (numColdBrew * coldBrewPrice) + 
 				(numPastry * pastryPrice);
 		
+		/**
+		 * add sales tax to subtotal = total sale
+		 */
 		totalSale = subtotal + SALES_TAX;
 		
 		System.out.printf("You ordered %d coffees, %d cold brews, and %d pastries.\n", 
