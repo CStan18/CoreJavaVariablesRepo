@@ -163,7 +163,7 @@ public class CoreJavaVariables {
 		
 		System.out.printf("You ordered %d coffees, %d cold brews, and %d pastries.\n", 
 				numCoffee, numColdBrew, numPastry);
-		System.out.printf("Total sale: %.2f", totalSale);
+		System.out.printf("Total sale: %.2f\n", totalSale);
 	}
 	
 	
@@ -176,6 +176,7 @@ public class CoreJavaVariables {
 		xYQuotient();
 		useConstant();
 		calcTotal(3, 4, 2);
+		
 	}
 
 }
